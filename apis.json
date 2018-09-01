@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - SpectroCoin",
+	"description": "This is a repository of spectrocoin APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/spectrocoin.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-31",
+	"url": "http://spectrocoin.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "SpectroCoin",
+			"x-api-slug": "spectrocoin",
+			"description": "SpectroCoin offers bitcoin exchange, bitcoin wallet, bitcoin debit card, and bitcoin payment processing services. Buy and sell bitcoins through SEPA, international and local bank transfers, or credit and debit cards.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26436-spectrocoin-com.jpg",
+			"humanURL": "http://spectrocoin.com",
+			"baseURL": "https://spectrocoin.com//api/merchant/1",
+			"tags": "SpectroCoin",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/spectrocoin/master/_listings/spectrocoin/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "SpectroCoin",
+	"include": [
+		{
+			"name": "SpectroCoin",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/spectrocoin/master/_listings/spectrocoin/apis.yaml"
+		}
+	]
+}
